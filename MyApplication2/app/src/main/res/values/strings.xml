@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Remote Tiger App</string>
+    <string name="remote">Welcome to Remote Tiger App</string>
+    <string name="chaitanya">Chaitanya</string>
+    <string name="hivan">Hivan</string>
+    <string name="marcus">Marcus</string>
+    <string name="ahemad">Ahemad</string>
+    <string name="sailu">Sailu</string>
+    <string name="welcome_chaitanya">Welcome, Chaitanya</string>
+</resources>
