@@ -28,5 +28,12 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent_chaitanya);
             }
         });
+        buttonHivan.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                startActivity(new Intent(MainActivity.this, HivanActivity.class));
+            }
+        });
     }
 }
