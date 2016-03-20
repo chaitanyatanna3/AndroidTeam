@@ -18,7 +18,8 @@
         <activity
             android:name=".ChaitanyaActivity"
             android:label="Chaitanya" />
-        <activity android:name=".HivanActivity"></activity>
+        <activity android:name=".HivanActivity" />
+        <activity android:name=".AhmedActivity"></activity>
     </application>
 
 </manifest>

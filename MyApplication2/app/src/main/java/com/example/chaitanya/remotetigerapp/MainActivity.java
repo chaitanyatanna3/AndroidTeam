@@ -36,4 +36,8 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
+    public void openAhmedActivity(View view) {
+                startActivity(new Intent(MainActivity.this, AhmedActivity.class));
+    }
 }
