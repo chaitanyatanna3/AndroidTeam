@@ -45,4 +45,8 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, MarcusActivity.class);
         startActivity(intent);
     }
+
+    public void openSailajaActivity(View view) {
+        startActivity(new Intent(getApplicationContext(),SailajaActivity.class));
+    }
 }
