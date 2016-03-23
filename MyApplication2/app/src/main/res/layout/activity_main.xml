@@ -42,6 +42,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/btn_marcus"
         android:layout_marginTop="10dp"
+        android:onClick="sMarcus"
         android:text="@string/marcus"
         android:textColor="@color/AntiqueWhite"
         android:background="@color/gray"/>
@@ -59,6 +60,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/btn_sailu"
         android:layout_marginTop="10dp"
+        android:onClick="openSailajaActivity"
         android:text="@string/sailu"
         android:textColor="@color/AntiqueWhite"
         android:background="@color/gray"/>

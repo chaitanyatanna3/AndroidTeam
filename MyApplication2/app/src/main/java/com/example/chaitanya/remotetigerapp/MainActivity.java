@@ -40,4 +40,13 @@ public class MainActivity extends AppCompatActivity {
     public void openAhmedActivity(View view) {
                 startActivity(new Intent(MainActivity.this, AhmedActivity.class));
     }
+
+    public void sMarcus(View view) {
+        Intent intent = new Intent(this, MarcusActivity.class);
+        startActivity(intent);
+    }
+
+    public void openSailajaActivity(View view) {
+        startActivity(new Intent(getApplicationContext(),SailajaActivity.class));
+    }
 }
